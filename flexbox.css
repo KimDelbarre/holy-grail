@@ -1,0 +1,51 @@
+body {
+  font-family: 'NTR', sans-serif;
+}
+
+header {
+  background-color: #ffa372;
+  text-align: center;
+  padding: 15px;
+}
+header h1 { 
+ color: #00263b; 
+} 
+
+.flexbox {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+nav {
+  flex: 1;
+  padding: 1%;
+  background-color: #f4ebc1;
+}
+main {
+  flex: 2;
+  padding: 1%;
+  background-color: #f4f6ff;
+}
+aside {
+  flex: 1;
+  padding: 1%;
+  background-color: #f4ebc1;
+}
+
+footer {
+  background-color: #00263b;
+  text-align: center;
+  padding: 20px;
+}
+footer p { 
+ color: #faf2f2; 
+
+} 
+
+
+/* SMALL SCREEN */
+@media screen and (max-width: 600px) {
+  .flexbox {
+    display: block;
+  }
+}
