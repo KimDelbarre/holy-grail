@@ -6,6 +6,10 @@ body {
   text-align: center;
   padding: 20px;
 }
+.header h1 { 
+ color: #00263b; 
+} 
+
 /* Create three equal columns that floats next to each other 
 .column {
   float: left;
