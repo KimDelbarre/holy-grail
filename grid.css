@@ -43,7 +43,7 @@ footer p {
 
 /* SMALL SCREEN */
 @media screen and (max-width: 600px) {
-  .flexbox {
+  .grid {
     display: block;
   }
 }
