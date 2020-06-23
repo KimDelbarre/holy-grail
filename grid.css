@@ -13,25 +13,19 @@ header h1 {
 
 .grid {
  display: grid;
-  grid-template-columns: 100px auto 100px;
-  grid-template-rows: repeat(3, 100px);
-  grid-gap: 1em;
-
-/*  grid-template-columns: repeat(auto-fill, minmax(200px, auto));*/
+  grid-template-columns: 25% auto 25%;
+  grid-gap: opx;
 }
 
 nav {
-  flex: 1;
   padding: 1%;
   background-color: #f4ebc1;
 }
 main {
-  flex: 2;
   padding: 1%;
   background-color: #f4f6ff;
 }
 aside {
-  flex: 1;
   padding: 1%;
   background-color: #f4ebc1;
 }
